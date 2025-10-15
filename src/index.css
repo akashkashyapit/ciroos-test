@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reusable styles */
+.card {
+  @apply bg-white rounded-xl shadow-card border border-slate-100;
+}
+
+.pill {
+  @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+}
+
+.skeleton {
+  @apply animate-pulse bg-slate-200 rounded;
+}
+

@@ -1,0 +1,95 @@
+0 verbose cli [
+0 verbose cli   '/Users/vikashkumar/.nvm/versions/node/v16.10.0/bin/node',
+0 verbose cli   '/Users/vikashkumar/.nvm/versions/node/v16.10.0/bin/npm',
+0 verbose cli   'install'
+0 verbose cli ]
+1 info using npm@7.24.0
+2 info using node@v16.10.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/vikashkumar/.nvm/versions/node/v16.10.0/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/vikashkumar/Desktop/assignment/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/Users/vikashkumar/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/vikashkumar/.nvm/versions/node/v16.10.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 4ms
+19 timing npm:load:configload Completed in 4ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing npm:load:setupLog Completed in 0ms
+22 timing config:load:flatten Completed in 1ms
+23 timing npm:load:cleanupLog Completed in 1ms
+24 timing npm:load:configScope Completed in 0ms
+25 timing npm:load:projectScope Completed in 0ms
+26 timing npm:load Completed in 6ms
+27 timing arborist:ctor Completed in 2ms
+28 timing arborist:ctor Completed in 0ms
+29 timing idealTree:init Completed in 4ms
+30 timing idealTree:userRequests Completed in 0ms
+31 silly idealTree buildDeps
+32 silly fetch manifest framer-motion@^11.2.10
+33 silly fetch manifest react@^18.3.1
+34 silly fetch manifest react-dom@^18.3.1
+35 silly fetch manifest recharts@^2.13.3
+36 silly fetch manifest autoprefixer@^10.4.20
+37 silly fetch manifest eslint@^9.11.1
+38 silly fetch manifest eslint-plugin-react-hooks@^5.1.0-rc.0
+39 silly fetch manifest postcss@^8.4.47
+40 silly fetch manifest tailwindcss@^3.4.13
+41 silly fetch manifest vite@^5.4.8
+42 silly placeDep ROOT autoprefixer@ OK for: interactive-dashboard@1.0.0 want: ^10.4.20
+43 silly placeDep ROOT eslint@ OK for: interactive-dashboard@1.0.0 want: ^9.11.1
+44 silly placeDep ROOT eslint-plugin-react-hooks@ OK for: interactive-dashboard@1.0.0 want: ^5.1.0-rc.0
+45 silly placeDep ROOT framer-motion@ OK for: interactive-dashboard@1.0.0 want: ^11.2.10
+46 silly placeDep ROOT postcss@ OK for: interactive-dashboard@1.0.0 want: ^8.4.47
+47 silly placeDep ROOT react@ OK for: interactive-dashboard@1.0.0 want: ^18.3.1
+48 silly placeDep ROOT react-dom@ OK for: interactive-dashboard@1.0.0 want: ^18.3.1
+49 silly placeDep ROOT recharts@ OK for: interactive-dashboard@1.0.0 want: ^2.13.3
+50 silly placeDep ROOT tailwindcss@ OK for: interactive-dashboard@1.0.0 want: ^3.4.13
+51 silly placeDep ROOT vite@ OK for: interactive-dashboard@1.0.0 want: ^5.4.8
+52 timing idealTree:#root Completed in 700195ms
+53 timing idealTree:node_modules/autoprefixer Completed in 0ms
+54 timing idealTree:node_modules/eslint Completed in 0ms
+55 timing idealTree:node_modules/eslint-plugin-react-hooks Completed in 0ms
+56 timing idealTree:node_modules/framer-motion Completed in 1ms
+57 timing idealTree:node_modules/postcss Completed in 0ms
+58 timing idealTree:node_modules/react Completed in 0ms
+59 timing idealTree:node_modules/react-dom Completed in 0ms
+60 timing idealTree:node_modules/recharts Completed in 0ms
+61 timing idealTree:node_modules/tailwindcss Completed in 0ms
+62 timing idealTree:node_modules/vite Completed in 0ms
+63 timing idealTree:buildDeps Completed in 700210ms
+64 timing idealTree:fixDepFlags Completed in 0ms
+65 timing idealTree Completed in 700216ms
+66 timing command:install Completed in 700236ms
+67 verbose type system
+68 verbose stack FetchError: request to https://registry.npmjs.org/autoprefixer failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+68 verbose stack     at ClientRequest.<anonymous> (/Users/vikashkumar/.nvm/versions/node/v16.10.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:110:14)
+68 verbose stack     at ClientRequest.emit (node:events:390:28)
+68 verbose stack     at TLSSocket.socketErrorListener (node:_http_client:447:9)
+68 verbose stack     at TLSSocket.emit (node:events:402:35)
+68 verbose stack     at emitErrorNT (node:internal/streams/destroy:157:8)
+68 verbose stack     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+68 verbose stack     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+69 verbose cwd /Users/vikashkumar/Desktop/assignment
+70 verbose Darwin 24.5.0
+71 verbose argv "/Users/vikashkumar/.nvm/versions/node/v16.10.0/bin/node" "/Users/vikashkumar/.nvm/versions/node/v16.10.0/bin/npm" "install"
+72 verbose node v16.10.0
+73 verbose npm  v7.24.0
+74 error code ENOTFOUND
+75 error syscall getaddrinfo
+76 error errno ENOTFOUND
+77 error network request to https://registry.npmjs.org/autoprefixer failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+78 error network This is a problem related to network connectivity.
+78 error network In most cases you are behind a proxy or have bad network settings.
+78 error network
+78 error network If you are behind a proxy, please make sure that the
+78 error network 'proxy' config is set properly.  See: 'npm help config'
+79 verbose exit 1
